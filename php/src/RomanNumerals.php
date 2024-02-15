@@ -2,7 +2,7 @@
 
 namespace Kata;
 
-class RomanNumerals
+    class RomanNumerals
 {
     public static function convert(int $number): string
     {
