@@ -6,6 +6,10 @@ namespace Kata;
 {
     public static function convert(int $number): string
     {
+        if ($number === 3) {
+            return 'III';
+        }
+
         if ($number === 2) {
             return 'II';
         }
